@@ -28,5 +28,5 @@ jobs:
         pip install --upgrade pip
         pip install -r requirements.txt;
     - name: Running
-      run: main.py
+      run: python main.py
       
