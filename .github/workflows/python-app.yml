@@ -15,7 +15,7 @@ permissions:
 jobs:
   build:
 
-    runs-on: Windows2022
+    runs-on: Windows-latest
 
     steps:
     - uses: actions/checkout@v4
