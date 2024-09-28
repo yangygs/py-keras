@@ -1,4 +1,4 @@
 import time
-with open('./requirements.txt','w+') as f:
-  f.write('\nrequests')
-  print('ok')
+with open('./requirements.txt','r') as f:
+  a = f.read()
+  print(a)
